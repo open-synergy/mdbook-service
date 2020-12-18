@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Menghapus Service Type</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../terminologi.html">Terminologi</a></li><li class="chapter-item expanded "><a href="../../konfigurasi.html"><strong aria-hidden="true">1.</strong> Konfigurasi</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../konfigurasi/service-type.html"><strong aria-hidden="true">1.1.</strong> Service Type</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../konfigurasi/service-type/penjelasan.html"><strong aria-hidden="true">1.1.1.</strong> Penjelasan Service Type</a></li><li class="chapter-item expanded "><a href="../../konfigurasi/service-type/membuat.html"><strong aria-hidden="true">1.1.2.</strong> Membuat Service Type</a></li><li class="chapter-item expanded "><a href="../../konfigurasi/service-type/memodifikasi.html"><strong aria-hidden="true">1.1.3.</strong> Memodifikasi Service Type</a></li><li class="chapter-item expanded "><a href="../../konfigurasi/service-type/menghapus.html" class="active"><strong aria-hidden="true">1.1.4.</strong> Menghapus Service Type</a></li><li class="chapter-item expanded "><a href="../../konfigurasi/service-type/menonaktifkan.html"><strong aria-hidden="true">1.1.5.</strong> Menonaktifkan Service Type</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../transaksi.html"><strong aria-hidden="true">2.</strong> Transaksi</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../transaksi/service-quotation.html"><strong aria-hidden="true">2.1.</strong> Service Quotation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../transaksi/service-quotation/membuat.html"><strong aria-hidden="true">2.1.1.</strong> Membuat Service Quotation</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-quotation/memodifikasi.html"><strong aria-hidden="true">2.1.2.</strong> Memodifikasi Service Quotation</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-quotation/menambahkan-termin.html"><strong aria-hidden="true">2.1.3.</strong> Menambahkan Termin Pembayaran</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-quotation/memodifikasi-termin.html"><strong aria-hidden="true">2.1.4.</strong> Memodifikasi Termin Pembayaran</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-quotation/menghapus-termin.html"><strong aria-hidden="true">2.1.5.</strong> Menghapus Termin Pembayaran</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-quotation/menambahkan-detail-termin.html"><strong aria-hidden="true">2.1.6.</strong> Menambahkan Detail Termin Pembayaran</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-quotation/memodifikasi-detail-termin.html"><strong aria-hidden="true">2.1.7.</strong> Memodifikasi Detail Termin Pembayaran</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-quotation/menghapus-detail-termin.html"><strong aria-hidden="true">2.1.8.</strong> Menghapus Detail Termin Pembayaran</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-quotation/menghapus.html"><strong aria-hidden="true">2.1.9.</strong> Menghapus Service Quotation</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-quotation/mengkonfirmasi.html"><strong aria-hidden="true">2.1.10.</strong> Mengkonfirmasi Service Quotation</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-quotation/memenangkan.html"><strong aria-hidden="true">2.1.11.</strong> Memenangkan Service Quotation</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-quotation/mengalahkan.html"><strong aria-hidden="true">2.1.12.</strong> Mengalahkan Service Quotation</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-quotation/membatalkan.html"><strong aria-hidden="true">2.1.13.</strong> Membatalkan Service Quotation</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-quotation/merestart.html"><strong aria-hidden="true">2.1.14.</strong> Merestart Service Quotation</a></li></ol></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract.html"><strong aria-hidden="true">2.2.</strong> Service Contract</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../transaksi/service-contract/membuat.html"><strong aria-hidden="true">2.2.1.</strong> Membuat Service Contract</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/memodifikasi.html"><strong aria-hidden="true">2.2.2.</strong> Memodifikasi Service Contract</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/menambahkan-termin.html"><strong aria-hidden="true">2.2.3.</strong> Menambahkan Termin Pembayaran</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/memodifikasi-termin.html"><strong aria-hidden="true">2.2.4.</strong> Memodifikasi Termin Pembayaran</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/menghapus-termin.html"><strong aria-hidden="true">2.2.5.</strong> Menghapus Termin Pembayaran</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/menambahkan-detail-termin.html"><strong aria-hidden="true">2.2.6.</strong> Menambahkan Detail Termin Pembayaran</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/memodifikasi-detail-termin.html"><strong aria-hidden="true">2.2.7.</strong> Memodifikasi Detail Termin Pembayaran</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/menghapus-detail-termin.html"><strong aria-hidden="true">2.2.8.</strong> Menghapus Detail Termin Pembayaran</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/menambahkan-team.html"><strong aria-hidden="true">2.2.9.</strong> Menambahkan Team</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/memodifikasi-team.html"><strong aria-hidden="true">2.2.10.</strong> Memodifikasi Team</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/menghapus-team.html"><strong aria-hidden="true">2.2.11.</strong> Menghapus Team</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/menghapus.html"><strong aria-hidden="true">2.2.12.</strong> Menghapus Service Contract</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/mengkonfirmasi.html"><strong aria-hidden="true">2.2.13.</strong> Mengkonfirmasi Service Contract</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/menyetujui.html"><strong aria-hidden="true">2.2.14.</strong> Menyetujui Service Contract</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/memulai.html"><strong aria-hidden="true">2.2.15.</strong> Memulai Service Contract</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/membuat-invoice.html"><strong aria-hidden="true">2.2.16.</strong> Membuat Customer Invoice Dari Payment Term</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/membatalkan-invoice.html"><strong aria-hidden="true">2.2.17.</strong> Membatalkan Customer Invoice Dari Payment Term</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/menyelesaikan.html"><strong aria-hidden="true">2.2.18.</strong> Menyelesaikan Service Contract</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/memutuskan.html"><strong aria-hidden="true">2.2.19.</strong> Memutuskan Service Contract</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/membatalkan.html"><strong aria-hidden="true">2.2.20.</strong> Membatalkan Service Contract</a></li><li class="chapter-item expanded "><a href="../../transaksi/service-contract/merestart.html"><strong aria-hidden="true">2.2.21.</strong> Merestart Service Contract</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#menghapus-service-type" id="menghapus-service-type">Menghapus Service Type</a></h1>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../konfigurasi/service-type/memodifikasi.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../konfigurasi/service-type/menonaktifkan.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../konfigurasi/service-type/memodifikasi.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../konfigurasi/service-type/menonaktifkan.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+        <script type="text/javascript">
+            window.playpen_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
