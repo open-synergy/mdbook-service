@@ -10,6 +10,7 @@
         - [Menonaktifkan Service Type](./konfigurasi/service-type/menonaktifkan.md)
 - [Transaksi](./transaksi.md)        
     - [Service Quotation](./transaksi/service-quotation.md)
+        - [Penjelasan Service Quotation](./transaksi/service-quotation/penjelasan.md)
         - [Membuat Service Quotation](./transaksi/service-quotation/membuat.md)
         - [Memodifikasi Service Quotation](./transaksi/service-quotation/memodifikasi.md)
         - [Menambahkan Termin Pembayaran](./transaksi/service-quotation/menambahkan-termin.md)
