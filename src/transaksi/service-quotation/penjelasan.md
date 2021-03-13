@@ -20,15 +20,15 @@ Nomor dokumen.
 
 #### <a name="field-title">Title</a>
 
-Judul dokumen.
+Judul penawaran.
 
 #### <a name="field-default-operating-unit">Default Operating Unit</a>
 
-Default operating unit yang digunakan.
+Operating unit yang memiliki dokumen.
 
 #### <a name="field-partner">Partner</a>
 
-Nama partner.
+Nama calon klien/konsumen.
 
 #### <a name="field-type">Type</a>
 
@@ -36,7 +36,7 @@ Tipe service.
 
 #### <a name="field-responsible">Responsible</a>
 
-Nama penanggung jawab quotation.
+Nama penanggung jawab jasa yang ditawarkan.
 
 #### <a name="field-currency">Currency</a>
 
@@ -52,15 +52,15 @@ Tanggal quotation.
 
 #### <a name="field-start-date">Start Date</a>
 
-Tanggal awal service.
+Tanggal estimasi dimulainya jasa.
 
 #### <a name="field-end-date">End Date</a>
 
-Tanggal akhir service.
+Tanggal estimasi diakhirinya jasa.
 
 #### <a name="field-no-contract"># Contract</a>
 
-Nomor kontrak.
+Nomor kontrak. Informasi akan terisi otomatis ketika penawaran dimenangkan.
 
 #### <a name="tab-fix-items">TAB FIX ITEMS</a>
 
@@ -73,7 +73,7 @@ Nomor kontrak.
 
 #### <a name="field-items">Items</a>
 
-Items services yang ditawarkan pada quotation.
+Items jasa yang ditawarkan pada quotation.
 
 #### <a name="field-term">Term</a>
 
@@ -105,19 +105,19 @@ Ukuran per unit (satuan).
 
 #### <a name="field-taxes">Taxes</a>
 
-Item standar pengenaan pajak.
+Pajak yang dikenakan untuk produk.
 
 #### <a name="field-untaxed">Untaxed</a>
 
-Jumlah produk yang tidak dikenakan pajak.
+Perkalian dari Price Unit x Qty
 
 #### <a name="field-tax">Tax</a>
 
-Jumlah produk yang dikenakan pajak.
+Pajak yang dikenakan terhadap Untaxed
 
 #### <a name="field-total">Total</a>
 
-Jumlah total.
+Penambahan dari Untaxed + Tax
 
 #### <a name="tab-custom-information">TAB CUSTOM INFORMATION</a>
 
@@ -125,7 +125,7 @@ Jumlah total.
 
 #### <a name="field-custom-information-template">Custom Information Template</a>
 
-Tabel informasi template.
+Template custom information yang digunakan.
 
 #### <a name="tab-reviews">TAB REVIEWS</a>
 
@@ -133,12 +133,11 @@ Tabel informasi template.
 
 #### <a name="field-definition">Definition</a>
 
-Definisi review yang digunakan.
+Template multiple review yang digunakan
 
 #### <a name="field-review-partners-validations">Review Partners Validations</a>
 
-Daftar partner yang melakukan validasi.
-
+Daftar nama user yang sedang ditunggu persetujuannya.
 
 #### <a name="tab-policies">TAB POLICIES</a>
 
@@ -146,27 +145,27 @@ Daftar partner yang melakukan validasi.
 
 #### <a name="field-confirm">Can Confirm</a>
 
-Kebijakan untuk dapat melakukan konfirmasi.
+Apabila aktif user dapat mengkonfirmasi penawaran.
 
 #### <a name="field-restart-approval">Can Restart Approval</a>
 
-Kebijakan untuk dapat melakukan restart persetujuan.
+Apabila aktif user dapat merestart persetujuan penawaran.
 
 #### <a name="field-mark-as-won">Can Mark As Won</a>
 
-Kebijakan untuk dapat memenangkan.
+Apabila aktif user dapat memenangkan penawaran.
 
 #### <a name="field-mark-as-lost">Can Mark As Lost</a>
 
-Kebijakan untuk dapat mengalahkan.
+Apabila aktif user dapat mengalahkan penawaran.
 
 #### <a name="field-cancel">Can Cancel</a>
 
-Kebijakan untuk dapat melakukan pembatalan.
+Apabila aktif user dapat membatalkan penawaran.
 
 #### <a name="field-restart">Can Restart</a>
 
-Kebijakan untuk dapat melakukan restart.
+Apabila aktif user dapat merestart penawaran.
 
 #### <a name="tab-logs">TAB LOGS</a>
 
@@ -174,19 +173,19 @@ Kebijakan untuk dapat melakukan restart.
 
 #### <a name="field-confirmation">Confirmation</a>
 
-Log aktifitas User yang melakukan konfirmasi.
+Waktu konfirmasi dan user yang mengkonfirmasi penawaran.
 
 #### <a name="field-won">Won</a>
 
-Log aktifitas User yang memenangkan.
+Waktu menang dan user yang memenangkan penawaran.
 
 #### <a name="field-lost">Lost</a>
 
-Log aktifitas User yang mengalahkan.
+Waktu kalah dan user yang mengalahkan penawaran.
 
 #### <a name="field-cancellation">Cancellation</a>
 
-Log aktifitas User yang melakukan pembatalan.
+Waktu batal dan user yang membatalkan penawaran
 
 #### <a name="tab-notes">TAB NOTES</a>
 
