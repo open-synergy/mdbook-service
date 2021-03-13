@@ -29,7 +29,6 @@
 14. Pilih dan sesuaikan **[End Date](./penjelasan.md#field-end-date)** jika dibutuhkan. Tidak wajib diisi.
 15. Beralih ke tab **[Fix Items](./penjelasan.md#tab-fix-items)**.
 16. <a name="l16">[Tambah](./menambahkan-termin.md)/[Modifikasi](./memodifikasi-termin.md)/[Hapus](./menghapus-termin.md) **Payment Terms**</a>. Ulangi langkah ini sampai **Payment Terms** sesuai dengan keinginan.
-
 17. Klik tombol **Save** pada bagian atas-kiri form.
 
 ![](../../img/service-quotation/tombol-save-modifikasi.png)
