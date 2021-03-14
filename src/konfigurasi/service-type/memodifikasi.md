@@ -20,11 +20,11 @@
 9. Beralih ke tab **[Fix Items Configuration](./penjelasan.md#tab-fix-items-configuration)**.
 10. Pilih dan sesuaikan **[Receivable Journal](./penjelasan.md#field-receivable-journal)** jika dibutuhkan. Tidak wajib diisi.
 11. Pilih dan sesuaikan **[Receivable Account](./penjelasan.md#field-receivable-account)** jika dibutuhkan. Tidak wajib diisi.
-12. Pilih dan sesuaikan **[Allowed Products](./penjelasan.md#field-allowed-product)** jika dibutuhkan. Wajib diisi.
-13. Pilih dan sesuaikan **[Allowed Product Categories](./penjelasan.md#field-allowed-product-categories)** jika dibutuhkan. Tidak wajib diisi.
+12. <a name="l12">[Tambah](./menambahkan-produk.md)/[Hapus](./menghapus-produk.md) **Allowed Products**</a>. Ulangi langkah ini sampai **Allowed Products** sesuai dengan keinginan.
+13. <a name="l13">[Tambah](./menambahkan-kategori-produk.md)/[Hapus](./menghapus-kategori-produk.md) **Allowed Product Categories**</a>. Ulangi langkah ini sampai **Allowed Product Categories** sesuai dengan keinginan.
 14. Beralih ke tab **[Team](./penjelasan.md#tab-team)**.
-15. Pilih dan sesuaikan **[Allowed Products](./penjelasan.md#field-team-allowed-product)** jika dibutuhkan. Wajib diisi.
-16. Pilih dan sesuaikan **[Allowed Product Categories](./penjelasan.md#field-team-allowed-product-categories)** jika dibutuhkan. Tidak wajib diisi.
+15. <a name="l15">[Tambah](./menambahkan-produk.md)/[Hapus](./menghapus-produk.md) **Allowed Products**</a>. Ulangi langkah ini sampai **Allowed Products** sesuai dengan keinginan.
+16. <a name="l16">[Tambah](./menambahkan-kategori-produk.md)/[Hapus](./menghapus-kategori-produk.md) **Allowed Product Categories**</a>. Ulangi langkah ini sampai **Allowed Product Categories** sesuai dengan keinginan.
 17. Beralih ke tab **[Analytic & Project](./penjelasan.md#tab-analytic-project)**.
 18. Pilih dan sesuaikan **[Parent Analytic Account](./penjelasan.md#field-parent-analytic-account)** jika dibutuhkan. Tidak wajib diisi.
 19. Aktifkan/ Deaktifkan **[Auto Create Project](./penjelasan.md#field-auto-create-project)** jika dibutuhkan. Tidak wajib diisi.
