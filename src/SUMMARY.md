@@ -32,6 +32,7 @@
         - [Membatalkan Service Quotation](./transaksi/service-quotation/membatalkan.md)
         - [Merestart Service Quotation](./transaksi/service-quotation/merestart.md)
     - [Service Contract](./transaksi/service-contract.md)
+        - [Penjelasan Service Contract](./transaksi/service-contract/penjelasan.md)
         - [Membuat Service Contract](./transaksi/service-contract/membuat.md)
         - [Memodifikasi Service Contract](./transaksi/service-contract/memodifikasi.md)
         - [Menambahkan Termin Pembayaran](./transaksi/service-contract/menambahkan-termin.md)

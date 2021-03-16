@@ -1,1 +1,27 @@
 # Service Contract
+
+*Service Contract* adalah fitur yang digunakan untuk pencatatan transaksi service contract.
+
+- [Penjelasan Service Contract](./service-contract/penjelasan.md)
+- [Membuat Service Contract](./service-contract/membuat.md)
+- [Memodifikasi Service Contract](./service-contract/memodifikasi.md)
+- [Menambahkan Termin Pembayaran](./service-contract/menambahkan-termin.md)
+- [Memodifikasi Termin Pembayaran](./service-contract/memodifikasi-termin.md)
+- [Menghapus Termin Pembayaran](./service-contract/menghapus-termin.md)
+- [Menambahkan Detail Termin Pembayaran](./service-contract/menambahkan-detail-termin.md)
+- [Memodifikasi Detail Termin Pembayaran](./service-contract/memodifikasi-detail-termin.md)
+- [Menghapus Detail Termin Pembayaran](./service-contract/menghapus-detail-termin.md)
+- [Menambahkan Team](./service-contract/menambahkan-team.md)
+- [Memodifikasi Team](./service-contract/memodifikasi-team.md)
+- [Menghapus Team](./service-contract/menghapus-team.md)
+- [Meghapus Service Contract](./service-contract/menghapus.md)
+- [Mengkonfirmasi Service Contract](./service-contract/mengkonfirmasi.md)
+- [Menyetujui Service Contract](./service-contract/menyetujui.md)
+- [Menolak Service Contract](./service-contract/menolak.md)
+- [Memulai Service Contract](./service-contract/memulai.md)
+- [Membuat Customer Invoice Dari Payment Term](./service-contract/membuat-invoice.md)
+- [Membatalkan Customer Invoice Dari Payment Term](./service-contract/membatalkan-invoice.md)
+- [Menyelesaikan Service Contract](./service-contract/menyelesaikan.md)
+- [Memutuskan Service Contract](./service-contract/memutuskan.md)
+- [Membatalkan Service Contract](./service-contract/membatalkan.md)
+- [Merestart Service Contract](./service-contract/merestart.md)
