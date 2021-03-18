@@ -1,4 +1,4 @@
-# Menambahkan Kategori Produk
+# Menambahkan Kategori Produk Pada Team
 
 *(Instruksi kerja ini merupakan sub instruksi dari (1) [Membuat Service Type](./membuat.md), atau (2) [Memodifikasi Service Type](./memodifikasi.md). Instruksi kerja ini tidak bisa berdiri sendiri)*
 
@@ -14,14 +14,14 @@
 
 Pop-up ***Allowed Product Categories*** akan muncul.
 
-![](../../img/service-type/pop-up-item-kategori-produk.png)
+![](../../img/service-type/pop-up-item-kategori-produk-team.png)
 
 2. Seleksi data kategori produk.
 3. Klik tombol **Select** pada bagian bawah-kiri pop-up ***Allowed Product Categories***
 
 ![](../../img/service-type/tombol-select-kategori-produk.png)
 
-4. Lanjutkan [langkah ke-12 instruksi kerja Membuat Service Type](./membuat.md#l12) atau [langkah ke-13 instruksi kerja Memodifikasi Service Type](./memodifikasi.md#l13).
+4. Lanjutkan [langkah ke-15 instruksi kerja Membuat Service Type](./membuat.md#l15) atau [langkah ke-16 instruksi kerja Memodifikasi Service Type](./memodifikasi.md#l16).
 
 ## C. OUTPUT
 

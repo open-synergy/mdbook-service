@@ -23,6 +23,6 @@
 
 ## C. OUTPUT
 
-* Data *Service Quotation* akan berubah menjadi status kalah.
+* Data *Service Quotation* akan berubah menjadi status Lost.
 
 ![](../../img/service-quotation/status-lost.png)
