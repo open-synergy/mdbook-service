@@ -22,8 +22,8 @@
 11. <a name="l11">[Tambah](./menambahkan-produk.md)/[Hapus](./menghapus-produk.md) **Allowed Products**</a>. Ulangi langkah ini sampai **Allowed Products** sesuai dengan keinginan.
 12. <a name="l12">[Tambah](./menambahkan-kategori-produk.md)/[Hapus](./menghapus-kategori-produk.md) **Allowed Product Categories**</a>. Ulangi langkah ini sampai **Allowed Product Categories** sesuai dengan keinginan.
 13. Beralih ke tab **[Team](./penjelasan.md#tab-team)**.
-14. <a name="l14">[Tambah](./menambahkan-produk.md)/[Hapus](./menghapus-produk.md) **Allowed Products**</a>. Ulangi langkah ini sampai **Allowed Products** sesuai dengan keinginan.
-15. <a name="l15">[Tambah](./menambahkan-kategori-produk.md)/[Hapus](./menghapus-kategori-produk.md) **Allowed Product Categories**</a>. Ulangi langkah ini sampai **Allowed Product Categories** sesuai dengan keinginan.
+14. <a name="l14">[Tambah](./menambahkan-produk-team.md)/[Hapus](./menghapus-produk-team.md) **Allowed Products**</a>. Ulangi langkah ini sampai **Allowed Products** sesuai dengan keinginan.
+15. <a name="l15">[Tambah](./menambahkan-kategori-produk-team.md)/[Hapus](./menghapus-kategori-produk-team.md) **Allowed Product Categories**</a>. Ulangi langkah ini sampai **Allowed Product Categories** sesuai dengan keinginan.
 16. Beralih ke tab **[Analytic & Project](./penjelasan.md#tab-analytic-project)**.
 17. Pilih **[Parent Analytic Account](./penjelasan.md#field-parent-analytic-account)**. Tidak wajib diisi.
 18. Aktifkan/ Deaktifkan **[Auto Create Project](./penjelasan.md#field-auto-create-project)**. Tidak wajib diisi.

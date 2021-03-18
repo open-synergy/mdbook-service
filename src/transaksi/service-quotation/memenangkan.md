@@ -23,6 +23,6 @@
 
 ## C. OUTPUT
 
-* Data *Service Quotation* akan berubah menjadi status menang.
+* Data *Service Quotation* akan berubah menjadi status Won.
 
 ![](../../img/service-quotation/status-won.png)
