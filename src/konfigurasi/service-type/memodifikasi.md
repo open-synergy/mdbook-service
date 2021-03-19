@@ -50,12 +50,8 @@
 39. Beralih ke tab **[Note](./penjelasan.md#tab-note)**.
 40. Isi dan sesuaikan **[Note](./penjelasan.md#field-note)** jika dibutuhkan. Tidak wajib diisi.
 41. Beralih ke tab **[Operating Unit](./penjelasan.md#tab-operating-unit)**.
-42. Pilih dan sesuaikan **[Operating Unit](./penjelasan.md#field-operating-unit)** jika dibutuhkan. Tidak wajib diisi.
-43. Pilih dan sesuaikan **[Contract Sequence](./penjelasan.md#field-contract-sequence)** jika dibutuhkan. Tidak wajib diisi.
-44. Pilih dan sesuaikan **[Quotation Sequence](./penjelasan.md#field-quotation-sequence)** jika dibutuhkan. Tidak wajib diisi.
-45. Pilih dan sesuaikan **[Fix Item Receivable Journal](./penjelasan.md#field-fix-item-receivable-journal)** jika dibutuhkan. Tidak wajib diisi.
-46. Pilih dan sesuaikan **[Fix Item Receivable Account](./penjelasan.md#field-fix-item-receivable-account)** jika dibutuhkan. Tidak wajib diisi.
-47. Klik tombol **Save** pada bagian atas-kiri form.
+42. <a name="l42">[Tambah](./menambahkan-operating-unit.md)/[Modifikasi](./memodifikasi-operating-unit.md)/[Hapus](./menghapus-operating-unit.md) **Operating Unit**</a>. Ulangi langkah ini sampai **Operating Unit** sesuai dengan keinginan.
+43. Klik tombol **Save** pada bagian atas-kiri form.
 
 ![](../../img/service-type/tombol-save-modifikasi.png)
 
