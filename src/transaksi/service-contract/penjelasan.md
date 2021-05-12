@@ -195,31 +195,31 @@ Daftar nama user yang sedang ditunggu persetujuannya.
 
 #### <a name="field-confirm">Can Confirm</a>
 
-Apabila aktif user dapat mengkonfirmasi kontrak.
+Berhak/tidaknya user aktif untuk dapat mengkonfirmasi service contract
 
 #### <a name="field-restart-approval">Can Restart Approval</a>
 
-Apabila aktif user dapat merestart persetujuan kontrak.
+Berhak/tidaknya user aktif untuk dapat merestart persetujuan service contract
 
-#### <a name="field-force-start">Can Force Start</a>
+#### <a name="field-force-start">Can Start</a>
 
-Apabila aktif user dapat memaksa untuk memulai kontrak.
+Berhak/tidaknya user aktif untuk dapat memulai service contract
 
-#### <a name="field-force-finish">Can Force Finish</a>
+#### <a name="field-force-finish">Can Finish</a>
 
-Apabila aktif user dapat memaksa untuk menyelesaikan kontrak.
+Berhak/tidaknya user aktif untuk dapat menyelesaikan service contract
 
 #### <a name="field-cancel">Can Cancel</a>
 
-Apabila aktif user dapat membatalkan kontrak.
+Berhak/tidaknya user aktif untuk dapat membatalkan service contract
 
 #### <a name="field-terminate">Can Terminate</a>
 
-Apabila aktif user dapat mengakhiri kontrak.
+Berhak/tidaknya user aktif untuk dapat mengakhiri paksa service contract
 
 #### <a name="field-restart">Can Restart</a>
 
-Apabila aktif user dapat merestart kontrak.
+Berhak/tidaknya user aktif untuk dapat merestart service contract
 
 #### <a name="tab-logs">TAB LOGS</a>
 

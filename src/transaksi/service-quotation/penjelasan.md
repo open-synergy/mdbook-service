@@ -145,27 +145,27 @@ Daftar nama user yang sedang ditunggu persetujuannya.
 
 #### <a name="field-confirm">Can Confirm</a>
 
-Apabila aktif user dapat mengkonfirmasi penawaran.
+Berhak/tidaknya user aktif untuk dapat mengkonfirmasi service quotation
 
 #### <a name="field-restart-approval">Can Restart Approval</a>
 
-Apabila aktif user dapat merestart persetujuan penawaran.
+Berhak/tidaknya user aktif untuk dapat merestart persetujuan service quotation
 
 #### <a name="field-mark-as-won">Can Mark As Won</a>
 
-Apabila aktif user dapat memenangkan penawaran.
+Berhak/tidaknya user aktif untuk dapat menandai service quotation sebagai menang
 
 #### <a name="field-mark-as-lost">Can Mark As Lost</a>
 
-Apabila aktif user dapat mengalahkan penawaran.
+Berhak/tidaknya user aktif untuk dapat menandai service quotation sebagai kalah
 
 #### <a name="field-cancel">Can Cancel</a>
 
-Apabila aktif user dapat membatalkan penawaran.
+Berhak/tidaknya user aktif untuk dapat membatalkan service quotation
 
 #### <a name="field-restart">Can Restart</a>
 
-Apabila aktif user dapat merestart penawaran.
+Berhak/tidaknya user aktif untuk dapat merestart service quotation
 
 #### <a name="tab-logs">TAB LOGS</a>
 
