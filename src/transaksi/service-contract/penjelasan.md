@@ -30,11 +30,11 @@ Operating unit yang memiliki dokumen.
 
 #### <a name="field-no-quotation"># Quotation</a>
 
-Nomor penawaran. Informasi akan terisi otomatis.
+Nomor penawaran. Informasi akan terisi otomatis apabila *service contract* dihasilkan secara otomatis dari *service quotation*.
 
 #### <a name="field-partner">Partner</a>
 
-Nama calon klien/konsumen.
+Nama klien, dapat berupa company partner ataupun invidual partner.
 
 #### <a name="field-type">Type</a>
 
@@ -42,7 +42,7 @@ Tipe service.
 
 #### <a name="field-salesman">Salesman</a>
 
-Nama tenaga penjualan.
+Nama *salesperson* yang bertanggung jawab terhadap penjualan/administrasi penjualan.
 
 #### <a name="field-responsible">Responsible</a>
 
@@ -79,15 +79,15 @@ Tanggal estimasi diakhirinya jasa.
 
 #### <a name="field-receivable-journal">Receivable Journal</a>
 
-Pengaturan accounting receivable journal.
+Buku jurnal yang digunakan untuk pembuatan customer invoice tiap term.
 
 #### <a name="field-receivable-account">Receivable Account</a>
 
-Pengaturan accounting receivable account.
+Akun piutang yang digunakan untuk pembuatan customer invoice tiap term.
 
-#### <a name="field-items">Items</a>
+#### <a name="field-items">Tabel ITEMS</a>
 
-Items jasa yang ditawarkan pada kontrak.
+Detail item yang dideliver oleh *service contract*
 
 #### <a name="field-term">Term</a>
 
@@ -141,13 +141,17 @@ Referensi Invoice.
 
 ![](../../img/service-contract/tab-teams.png)
 
+#### <a name="tabel-teams">TABEL Teams</a>
+
+Daftar nama tim dan tanggung jawabnya dalam menyelesaikan *service contract*.
+
 #### <a name="field-function">Function</a>
 
-Nama Fungsi.
+Nama fungsi/jabatan di dalam penyelesaian pekerjaan.
 
 #### <a name="field-team">Team</a>
 
-Nama Team.
+Nama tim.
 
 #### <a name="tab-custom-information">TAB CUSTOM INFORMATION</a>
 
@@ -155,7 +159,27 @@ Nama Team.
 
 #### <a name="field-custom-information-template">Custom Information Template</a>
 
-Template custom information yang digunakan.
+Template *custom information* yang digunakan.
+
+#### <a name="tabel-customer-information">TABEL Custom Information</a>
+
+Data-data *custom information*.
+
+#### <a name="field-custom-information-property">Property</a>
+
+Jenis *custom information*.
+
+#### <a name="field-custom-information-category">Category</a>
+
+Kategori *custom information*.
+
+#### <a name="field-custom-information-value">Value</a>
+
+Nilai dari *custom information*.
+
+#### <a name="field-custom-information-selection-value">Selection Value</a>
+
+Pilihan-pilihan yang disediakan. Hanya dapat diisi apabila *custom information* bertipe *selection*.
 
 #### <a name="tab-analytic-project">TAB ANALYTIC & PROJECT</a>
 
@@ -167,15 +191,15 @@ Akun analitik induk yang digunakan.
 
 #### <a name="field-analytic-account">Analytic Account</a>
 
-Akun analitik yang digunakan.
+Akun analitik yang digunakan. Apabila dikosongkan maka *analytic account* akan otomatis dibuat ketika *service contract* disetujui (mempunyai status **Ready to Start**).
 
 #### <a name="field-auto-create-project">Auto Create Project</a>
 
-Penanda pembuatan proyek secara otomatis diaktifkan.
+Apabila diaktifkan maka *service contract* akan secara otomatis membuat *project* ketika disetujui (mempunyai status **Ready to Start**).
 
 #### <a name="field-project">Project</a>
 
-Nama proyek yang digunakan.
+*Project* yang otomatis dibuat apabila **Auto Create Project** diaktifkan.
 
 #### <a name="tab-reviews">TAB REVIEWS</a>
 
@@ -183,11 +207,47 @@ Nama proyek yang digunakan.
 
 #### <a name="field-definition">Definition</a>
 
-Template multiple review yang digunakan.
+Template multiple approval yang digunakan.
 
 #### <a name="field-review-partners-validations">Review Partners Validations</a>
 
-Daftar nama user yang sedang ditunggu persetujuannya.
+Nama-nama user yang dapat menyetujui/menolak *service contract*
+
+#### <a name="tabel-validations">TABEL Validations</a>
+
+Tahapan-tahapan persetujuan *service contract*
+
+#### <a name="field-validations-tier">Tier</a>
+
+Urutan persetujuan
+
+#### <a name="field-validations-validated-by">Validated By</a>
+
+Metode pemilihan user-user yang dapat menyetujui/menolak *service contract*. Metode pemilihan terdiri dari 3 (tiga) yaitu:
+
+1. *Specific user*. User-user yang dapat menyetujui/menolah *service contract* ditentukan langsung.
+2. *Any user in specific group*. User-user yang dapat menyetujui/menolak *service contract* adalah user-user yang tergabung dalam kelompok-kelompok user yang ditentukan.
+3. *Both specific user and group*. User-user yang dapat menyetujui/menolah *service contract* ditentukan langsung ditambah dengan user-user yang tergabung dalam kelompok-kelompok user yang ditentukan.
+4. *Python code*. User-user yang dapat menyetujui/menolah *service contract* ditentukan oleh algoritma kode python tertentu
+
+#### <a name="field-validations-reviewers">Reviewers</a>
+
+Nama-nama user yang dapat menyetujui/menolak *service contract* pada *tier* yang dimaksud.
+
+#### <a name="field-validations-validated-rejected">Validated/Rejected By</a>
+
+User yang menyetujui/menolak *service contract*.
+
+#### <a name="field-validations-date">Date</a>
+
+Tanggal dan waktu **Validated/Rejected By** menyetujui/menolak *service contract*
+
+#### <a name="field-validations-date">Status</a>
+
+Status persetujuan, terdiri dari 2 (dua) kemungkinan:
+
+1. **Approved**. Tier disetujui.
+2. **Rejected**. Tier ditolak.
 
 #### <a name="tab-policies">TAB POLICIES</a>
 
