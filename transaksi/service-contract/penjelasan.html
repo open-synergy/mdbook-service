@@ -169,13 +169,13 @@
 <h4><a class="header" href="#a-namefield-default-operating-unitdefault-operating-unita" id="a-namefield-default-operating-unitdefault-operating-unita"><a name="field-default-operating-unit">Default Operating Unit</a></a></h4>
 <p>Operating unit yang memiliki dokumen.</p>
 <h4><a class="header" href="#a-namefield-no-quotation-quotationa" id="a-namefield-no-quotation-quotationa"><a name="field-no-quotation"># Quotation</a></a></h4>
-<p>Nomor penawaran. Informasi akan terisi otomatis.</p>
+<p>Nomor penawaran. Informasi akan terisi otomatis apabila <em>service contract</em> dihasilkan secara otomatis dari <em>service quotation</em>.</p>
 <h4><a class="header" href="#a-namefield-partnerpartnera" id="a-namefield-partnerpartnera"><a name="field-partner">Partner</a></a></h4>
-<p>Nama calon klien/konsumen.</p>
+<p>Nama klien, dapat berupa company partner ataupun invidual partner.</p>
 <h4><a class="header" href="#a-namefield-typetypea" id="a-namefield-typetypea"><a name="field-type">Type</a></a></h4>
 <p>Tipe service.</p>
 <h4><a class="header" href="#a-namefield-salesmansalesmana" id="a-namefield-salesmansalesmana"><a name="field-salesman">Salesman</a></a></h4>
-<p>Nama tenaga penjualan.</p>
+<p>Nama <em>salesperson</em> yang bertanggung jawab terhadap penjualan/administrasi penjualan.</p>
 <h4><a class="header" href="#a-namefield-responsibleresponsiblea" id="a-namefield-responsibleresponsiblea"><a name="field-responsible">Responsible</a></a></h4>
 <p>Nama penanggung jawab jasa yang ditawarkan.</p>
 <h4><a class="header" href="#a-namefield-currencycurrencya" id="a-namefield-currencycurrencya"><a name="field-currency">Currency</a></a></h4>
@@ -194,11 +194,11 @@
 <p><em>Pop Up Payment Term</em> saat <em>add an item</em> diklik.</p>
 <p><img src="../../img/service-contract/pop-up-payment-term.png" alt="" /></p>
 <h4><a class="header" href="#a-namefield-receivable-journalreceivable-journala" id="a-namefield-receivable-journalreceivable-journala"><a name="field-receivable-journal">Receivable Journal</a></a></h4>
-<p>Pengaturan accounting receivable journal.</p>
+<p>Buku jurnal yang digunakan untuk pembuatan customer invoice tiap term.</p>
 <h4><a class="header" href="#a-namefield-receivable-accountreceivable-accounta" id="a-namefield-receivable-accountreceivable-accounta"><a name="field-receivable-account">Receivable Account</a></a></h4>
-<p>Pengaturan accounting receivable account.</p>
-<h4><a class="header" href="#a-namefield-itemsitemsa" id="a-namefield-itemsitemsa"><a name="field-items">Items</a></a></h4>
-<p>Items jasa yang ditawarkan pada kontrak.</p>
+<p>Akun piutang yang digunakan untuk pembuatan customer invoice tiap term.</p>
+<h4><a class="header" href="#a-namefield-itemstabel-itemsa" id="a-namefield-itemstabel-itemsa"><a name="field-items">Tabel ITEMS</a></a></h4>
+<p>Detail item yang dideliver oleh <em>service contract</em></p>
 <h4><a class="header" href="#a-namefield-termterma" id="a-namefield-termterma"><a name="field-term">Term</a></a></h4>
 <p>Deskripsi termin pembayaran.</p>
 <h4><a class="header" href="#a-namefield-sequencesequencea" id="a-namefield-sequencesequencea"><a name="field-sequence">Sequence</a></a></h4>
@@ -225,30 +225,66 @@
 <p>Referensi Invoice.</p>
 <h4><a class="header" href="#a-nametab-teamstab-teamsa" id="a-nametab-teamstab-teamsa"><a name="tab-teams">TAB TEAMS</a></a></h4>
 <p><img src="../../img/service-contract/tab-teams.png" alt="" /></p>
+<h4><a class="header" href="#a-nametabel-teamstabel-teamsa" id="a-nametabel-teamstabel-teamsa"><a name="tabel-teams">TABEL Teams</a></a></h4>
+<p>Daftar nama tim dan tanggung jawabnya dalam menyelesaikan <em>service contract</em>.</p>
 <h4><a class="header" href="#a-namefield-functionfunctiona" id="a-namefield-functionfunctiona"><a name="field-function">Function</a></a></h4>
-<p>Nama Fungsi.</p>
+<p>Nama fungsi/jabatan di dalam penyelesaian pekerjaan.</p>
 <h4><a class="header" href="#a-namefield-teamteama" id="a-namefield-teamteama"><a name="field-team">Team</a></a></h4>
-<p>Nama Team.</p>
+<p>Nama tim.</p>
 <h4><a class="header" href="#a-nametab-custom-informationtab-custom-informationa" id="a-nametab-custom-informationtab-custom-informationa"><a name="tab-custom-information">TAB CUSTOM INFORMATION</a></a></h4>
 <p><img src="../../img/service-contract/tab-custom-information.png" alt="" /></p>
 <h4><a class="header" href="#a-namefield-custom-information-templatecustom-information-templatea" id="a-namefield-custom-information-templatecustom-information-templatea"><a name="field-custom-information-template">Custom Information Template</a></a></h4>
-<p>Template custom information yang digunakan.</p>
+<p>Template <em>custom information</em> yang digunakan.</p>
+<h4><a class="header" href="#a-nametabel-customer-informationtabel-custom-informationa" id="a-nametabel-customer-informationtabel-custom-informationa"><a name="tabel-customer-information">TABEL Custom Information</a></a></h4>
+<p>Data-data <em>custom information</em>.</p>
+<h4><a class="header" href="#a-namefield-custom-information-propertypropertya" id="a-namefield-custom-information-propertypropertya"><a name="field-custom-information-property">Property</a></a></h4>
+<p>Jenis <em>custom information</em>.</p>
+<h4><a class="header" href="#a-namefield-custom-information-categorycategorya" id="a-namefield-custom-information-categorycategorya"><a name="field-custom-information-category">Category</a></a></h4>
+<p>Kategori <em>custom information</em>.</p>
+<h4><a class="header" href="#a-namefield-custom-information-valuevaluea" id="a-namefield-custom-information-valuevaluea"><a name="field-custom-information-value">Value</a></a></h4>
+<p>Nilai dari <em>custom information</em>.</p>
+<h4><a class="header" href="#a-namefield-custom-information-selection-valueselection-valuea" id="a-namefield-custom-information-selection-valueselection-valuea"><a name="field-custom-information-selection-value">Selection Value</a></a></h4>
+<p>Pilihan-pilihan yang disediakan. Hanya dapat diisi apabila <em>custom information</em> bertipe <em>selection</em>.</p>
 <h4><a class="header" href="#a-nametab-analytic-projecttab-analytic--projecta" id="a-nametab-analytic-projecttab-analytic--projecta"><a name="tab-analytic-project">TAB ANALYTIC &amp; PROJECT</a></a></h4>
 <p><img src="../../img/service-contract/tab-analytic-project.png" alt="" /></p>
 <h4><a class="header" href="#a-namefield-parent-analytic-accountparent-analytic-accounta" id="a-namefield-parent-analytic-accountparent-analytic-accounta"><a name="field-parent-analytic-account">Parent Analytic Account</a></a></h4>
 <p>Akun analitik induk yang digunakan.</p>
 <h4><a class="header" href="#a-namefield-analytic-accountanalytic-accounta" id="a-namefield-analytic-accountanalytic-accounta"><a name="field-analytic-account">Analytic Account</a></a></h4>
-<p>Akun analitik yang digunakan.</p>
+<p>Akun analitik yang digunakan. Apabila dikosongkan maka <em>analytic account</em> akan otomatis dibuat ketika <em>service contract</em> disetujui (mempunyai status <strong>Ready to Start</strong>).</p>
 <h4><a class="header" href="#a-namefield-auto-create-projectauto-create-projecta" id="a-namefield-auto-create-projectauto-create-projecta"><a name="field-auto-create-project">Auto Create Project</a></a></h4>
-<p>Penanda pembuatan proyek secara otomatis diaktifkan.</p>
+<p>Apabila diaktifkan maka <em>service contract</em> akan secara otomatis membuat <em>project</em> ketika disetujui (mempunyai status <strong>Ready to Start</strong>).</p>
 <h4><a class="header" href="#a-namefield-projectprojecta" id="a-namefield-projectprojecta"><a name="field-project">Project</a></a></h4>
-<p>Nama proyek yang digunakan.</p>
+<p><em>Project</em> yang otomatis dibuat apabila <strong>Auto Create Project</strong> diaktifkan.</p>
 <h4><a class="header" href="#a-nametab-reviewstab-reviewsa" id="a-nametab-reviewstab-reviewsa"><a name="tab-reviews">TAB REVIEWS</a></a></h4>
 <p><img src="../../img/service-contract/tab-reviews.png" alt="" /></p>
 <h4><a class="header" href="#a-namefield-definitiondefinitiona" id="a-namefield-definitiondefinitiona"><a name="field-definition">Definition</a></a></h4>
-<p>Template multiple review yang digunakan.</p>
+<p>Template multiple approval yang digunakan.</p>
 <h4><a class="header" href="#a-namefield-review-partners-validationsreview-partners-validationsa" id="a-namefield-review-partners-validationsreview-partners-validationsa"><a name="field-review-partners-validations">Review Partners Validations</a></a></h4>
-<p>Daftar nama user yang sedang ditunggu persetujuannya.</p>
+<p>Nama-nama user yang dapat menyetujui/menolak <em>service contract</em></p>
+<h4><a class="header" href="#a-nametabel-validationstabel-validationsa" id="a-nametabel-validationstabel-validationsa"><a name="tabel-validations">TABEL Validations</a></a></h4>
+<p>Tahapan-tahapan persetujuan <em>service contract</em></p>
+<h4><a class="header" href="#a-namefield-validations-tiertiera" id="a-namefield-validations-tiertiera"><a name="field-validations-tier">Tier</a></a></h4>
+<p>Urutan persetujuan</p>
+<h4><a class="header" href="#a-namefield-validations-validated-byvalidated-bya" id="a-namefield-validations-validated-byvalidated-bya"><a name="field-validations-validated-by">Validated By</a></a></h4>
+<p>Metode pemilihan user-user yang dapat menyetujui/menolak <em>service contract</em>. Metode pemilihan terdiri dari 3 (tiga) yaitu:</p>
+<ol>
+<li><em>Specific user</em>. User-user yang dapat menyetujui/menolah <em>service contract</em> ditentukan langsung.</li>
+<li><em>Any user in specific group</em>. User-user yang dapat menyetujui/menolak <em>service contract</em> adalah user-user yang tergabung dalam kelompok-kelompok user yang ditentukan.</li>
+<li><em>Both specific user and group</em>. User-user yang dapat menyetujui/menolah <em>service contract</em> ditentukan langsung ditambah dengan user-user yang tergabung dalam kelompok-kelompok user yang ditentukan.</li>
+<li><em>Python code</em>. User-user yang dapat menyetujui/menolah <em>service contract</em> ditentukan oleh algoritma kode python tertentu</li>
+</ol>
+<h4><a class="header" href="#a-namefield-validations-reviewersreviewersa" id="a-namefield-validations-reviewersreviewersa"><a name="field-validations-reviewers">Reviewers</a></a></h4>
+<p>Nama-nama user yang dapat menyetujui/menolak <em>service contract</em> pada <em>tier</em> yang dimaksud.</p>
+<h4><a class="header" href="#a-namefield-validations-validated-rejectedvalidatedrejected-bya" id="a-namefield-validations-validated-rejectedvalidatedrejected-bya"><a name="field-validations-validated-rejected">Validated/Rejected By</a></a></h4>
+<p>User yang menyetujui/menolak <em>service contract</em>.</p>
+<h4><a class="header" href="#a-namefield-validations-datedatea" id="a-namefield-validations-datedatea"><a name="field-validations-date">Date</a></a></h4>
+<p>Tanggal dan waktu <strong>Validated/Rejected By</strong> menyetujui/menolak <em>service contract</em></p>
+<h4><a class="header" href="#a-namefield-validations-datestatusa" id="a-namefield-validations-datestatusa"><a name="field-validations-date">Status</a></a></h4>
+<p>Status persetujuan, terdiri dari 2 (dua) kemungkinan:</p>
+<ol>
+<li><strong>Approved</strong>. Tier disetujui.</li>
+<li><strong>Rejected</strong>. Tier ditolak.</li>
+</ol>
 <h4><a class="header" href="#a-nametab-policiestab-policiesa" id="a-nametab-policiestab-policiesa"><a name="tab-policies">TAB POLICIES</a></a></h4>
 <p><img src="../../img/service-contract/tab-policies.png" alt="" /></p>
 <h4><a class="header" href="#a-namefield-confirmcan-confirma" id="a-namefield-confirmcan-confirma"><a name="field-confirm">Can Confirm</a></a></h4>
