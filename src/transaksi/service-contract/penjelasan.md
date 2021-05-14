@@ -73,9 +73,9 @@ Tanggal estimasi diakhirinya jasa.
 ![](../../img/service-contract/tab-fix-items-1.png)
 ![](../../img/service-contract/tab-fix-items-2.png)
 
-*Pop Up Payment Term* saat *add an item* diklik.
+#### <a name="field-accounting-setting">ACCOUNTING SETTING</a>
 
-![](../../img/service-contract/pop-up-payment-term.png)
+Pengaturan akuntansi.
 
 #### <a name="field-receivable-journal">Receivable Journal</a>
 
@@ -89,6 +89,42 @@ Akun piutang yang digunakan untuk pembuatan customer invoice tiap term.
 
 Detail item yang dideliver oleh *service contract*
 
+#### <a name="field-items-product">Product</a>
+
+Nama produk.
+
+#### <a name="field-items-description">Description</a>
+
+Deskripsi produk.
+
+#### <a name="field-items-price-unit">Price Unit</a>
+
+Harga per unit.
+
+#### <a name="field-items-qty">Qty</a>
+
+Jumlah unit.
+
+#### <a name="field-items-uom">UoM</a>
+
+Ukuran per unit (satuan).
+
+#### <a name="field-items-untaxed">Untaxed</a>
+
+Perkalian dari Price Unit x Qty
+
+#### <a name="field-items-tax">Tax</a>
+
+Pajak yang dikenakan terhadap Untaxed.
+
+#### <a name="field-items-total">Total</a>
+
+Penambahan dari Untaxed + Tax.
+
+#### <a name="field-payment-terms">Tabel PAYMENT TERMS</a>
+
+Isian termin pembayaran *service contract*
+
 #### <a name="field-term">Term</a>
 
 Deskripsi termin pembayaran.
@@ -96,6 +132,10 @@ Deskripsi termin pembayaran.
 #### <a name="field-sequence">Sequence</a>
 
 Urutan termin pembayaran.
+
+#### <a name="field-no-invoice"># Invoice</a>
+
+Nomor Invoice.
 
 #### <a name="field-product">Product</a>
 
