@@ -198,11 +198,11 @@
 <h4><a class="header" href="#a-namefield-receivable-accountreceivable-accounta" id="a-namefield-receivable-accountreceivable-accounta"><a name="field-receivable-account">Receivable Account</a></a></h4>
 <p>Akun piutang yang digunakan untuk pembuatan customer invoice tiap term.</p>
 <h4><a class="header" href="#a-namefield-itemstabel-itemsa" id="a-namefield-itemstabel-itemsa"><a name="field-items">Tabel ITEMS</a></a></h4>
-<p>Detail item yang dideliver oleh <em>service contract</em></p>
+<p>Detail item yang dideliver oleh <em>service contract</em>. Tabel ini akan terisi otomatis berdasarkan data yang diimput pada tabel <strong><a href="#field-payment-terms">Payment Terms</a></strong>.</p>
 <h4><a class="header" href="#a-namefield-items-productproducta" id="a-namefield-items-productproducta"><a name="field-items-product">Product</a></a></h4>
-<p>Nama produk.</p>
+<p>Nama item.</p>
 <h4><a class="header" href="#a-namefield-items-descriptiondescriptiona" id="a-namefield-items-descriptiondescriptiona"><a name="field-items-description">Description</a></a></h4>
-<p>Deskripsi produk.</p>
+<p>Deskripsi item.</p>
 <h4><a class="header" href="#a-namefield-items-price-unitprice-unita" id="a-namefield-items-price-unitprice-unita"><a name="field-items-price-unit">Price Unit</a></a></h4>
 <p>Harga per unit.</p>
 <h4><a class="header" href="#a-namefield-items-qtyqtya" id="a-namefield-items-qtyqtya"><a name="field-items-qty">Qty</a></a></h4>
@@ -212,21 +212,21 @@
 <h4><a class="header" href="#a-namefield-items-untaxeduntaxeda" id="a-namefield-items-untaxeduntaxeda"><a name="field-items-untaxed">Untaxed</a></a></h4>
 <p>Perkalian dari Price Unit x Qty</p>
 <h4><a class="header" href="#a-namefield-items-taxtaxa" id="a-namefield-items-taxtaxa"><a name="field-items-tax">Tax</a></a></h4>
-<p>Pajak yang dikenakan terhadap Untaxed.</p>
+<p>Pajak yang dikenakan terhadap Untaxed. Dapat lebih dari 1.</p>
 <h4><a class="header" href="#a-namefield-items-totaltotala" id="a-namefield-items-totaltotala"><a name="field-items-total">Total</a></a></h4>
 <p>Penambahan dari Untaxed + Tax.</p>
 <h4><a class="header" href="#a-namefield-payment-termstabel-payment-termsa" id="a-namefield-payment-termstabel-payment-termsa"><a name="field-payment-terms">Tabel PAYMENT TERMS</a></a></h4>
-<p>Isian termin pembayaran <em>service contract</em></p>
+<p>Termin pembayaran <em>service contract</em> beserta item-item di tiap terminnya.</p>
 <h4><a class="header" href="#a-namefield-termterma" id="a-namefield-termterma"><a name="field-term">Term</a></a></h4>
 <p>Deskripsi termin pembayaran.</p>
 <h4><a class="header" href="#a-namefield-sequencesequencea" id="a-namefield-sequencesequencea"><a name="field-sequence">Sequence</a></a></h4>
 <p>Urutan termin pembayaran.</p>
 <h4><a class="header" href="#a-namefield-no-invoice-invoicea" id="a-namefield-no-invoice-invoicea"><a name="field-no-invoice"># Invoice</a></a></h4>
-<p>Nomor Invoice.</p>
+<p>Nomor Invoice. Akan terisi otomatis jika termin sudah diinvoice.</p>
 <h4><a class="header" href="#a-namefield-productproducta" id="a-namefield-productproducta"><a name="field-product">Product</a></a></h4>
-<p>Nama produk.</p>
+<p>Nama item.</p>
 <h4><a class="header" href="#a-namefield-descriptiondescriptiona" id="a-namefield-descriptiondescriptiona"><a name="field-description">Description</a></a></h4>
-<p>Deskripsi produk.</p>
+<p>Deskripsi item.</p>
 <h4><a class="header" href="#a-namefield-price-unitprice-unita" id="a-namefield-price-unitprice-unita"><a name="field-price-unit">Price Unit</a></a></h4>
 <p>Harga per unit.</p>
 <h4><a class="header" href="#a-namefield-qtyqtya" id="a-namefield-qtyqtya"><a name="field-qty">Qty</a></a></h4>
@@ -234,7 +234,7 @@
 <h4><a class="header" href="#a-namefield-uomuoma" id="a-namefield-uomuoma"><a name="field-uom">UoM</a></a></h4>
 <p>Ukuran per unit (satuan).</p>
 <h4><a class="header" href="#a-namefield-taxestaxesa" id="a-namefield-taxestaxesa"><a name="field-taxes">Taxes</a></a></h4>
-<p>Pajak yang dikenakan untuk produk.</p>
+<p>Pajak yang dikenakan untuk produk. Dapat dikenakan lebih dari 1.</p>
 <h4><a class="header" href="#a-namefield-untaxeduntaxeda" id="a-namefield-untaxeduntaxeda"><a name="field-untaxed">Untaxed</a></a></h4>
 <p>Perkalian dari Price Unit x Qty</p>
 <h4><a class="header" href="#a-namefield-taxtaxa" id="a-namefield-taxtaxa"><a name="field-tax">Tax</a></a></h4>
