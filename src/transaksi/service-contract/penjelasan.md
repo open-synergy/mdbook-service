@@ -87,15 +87,15 @@ Akun piutang yang digunakan untuk pembuatan customer invoice tiap term.
 
 #### <a name="field-items">Tabel ITEMS</a>
 
-Detail item yang dideliver oleh *service contract*
+Detail item yang dideliver oleh *service contract*. Tabel ini akan terisi otomatis berdasarkan data yang diimput pada tabel **[Payment Terms](#field-payment-terms)**.
 
 #### <a name="field-items-product">Product</a>
 
-Nama produk.
+Nama item.
 
 #### <a name="field-items-description">Description</a>
 
-Deskripsi produk.
+Deskripsi item.
 
 #### <a name="field-items-price-unit">Price Unit</a>
 
@@ -115,7 +115,7 @@ Perkalian dari Price Unit x Qty
 
 #### <a name="field-items-tax">Tax</a>
 
-Pajak yang dikenakan terhadap Untaxed.
+Pajak yang dikenakan terhadap Untaxed. Dapat lebih dari 1.
 
 #### <a name="field-items-total">Total</a>
 
@@ -123,7 +123,7 @@ Penambahan dari Untaxed + Tax.
 
 #### <a name="field-payment-terms">Tabel PAYMENT TERMS</a>
 
-Isian termin pembayaran *service contract*
+Termin pembayaran *service contract* beserta item-item di tiap terminnya.
 
 #### <a name="field-term">Term</a>
 
@@ -135,15 +135,15 @@ Urutan termin pembayaran.
 
 #### <a name="field-no-invoice"># Invoice</a>
 
-Nomor Invoice.
+Nomor Invoice. Akan terisi otomatis jika termin sudah diinvoice.
 
 #### <a name="field-product">Product</a>
 
-Nama produk.
+Nama item.
 
 #### <a name="field-description">Description</a>
 
-Deskripsi produk.
+Deskripsi item.
 
 #### <a name="field-price-unit">Price Unit</a>
 
@@ -159,7 +159,7 @@ Ukuran per unit (satuan).
 
 #### <a name="field-taxes">Taxes</a>
 
-Pajak yang dikenakan untuk produk.
+Pajak yang dikenakan untuk produk. Dapat dikenakan lebih dari 1.
 
 #### <a name="field-untaxed">Untaxed</a>
 
