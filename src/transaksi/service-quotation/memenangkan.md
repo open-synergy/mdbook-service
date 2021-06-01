@@ -26,3 +26,5 @@
 * Data *Service Quotation* akan berubah menjadi status Won.
 
 ![](../../img/service-quotation/status-won.png)
+
+* Service Contract akan terbuat berdasarkan informasi pada service quotation. Isian # Contract akan otomatis diisi dengan data service contract.

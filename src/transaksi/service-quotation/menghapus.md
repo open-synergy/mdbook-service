@@ -7,6 +7,7 @@
 ![](../../img/service-quotation/status-input-draft.png)
 
 * User yang akan menghapus harus memiliki akses untuk menghapus *Service Quotation*.
+* Nomor dokumen harus sama dengan /
 
 ## B. LANGKAH KERJA
 

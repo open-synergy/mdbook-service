@@ -71,9 +71,45 @@ Nomor kontrak. Informasi akan terisi otomatis ketika penawaran dimenangkan.
 
 ![](../../img/service-quotation/pop-up-payment-term.png)
 
-#### <a name="field-items">Items</a>
+#### <a name="field-items">Tabel ITEMS</a>
 
-Items jasa yang ditawarkan pada quotation.
+Detail item yang dideliver oleh *service quotation*. Tabel ini akan terisi otomatis berdasarkan data yang diinput pada tabel **[Payment Terms](#field-payment-terms)**.
+
+#### <a name="field-items-product">Product</a>
+
+Nama item.
+
+#### <a name="field-items-description">Description</a>
+
+Deskripsi item.
+
+#### <a name="field-items-price-unit">Price Unit</a>
+
+Harga per unit.
+
+#### <a name="field-items-qty">Qty</a>
+
+Jumlah unit.
+
+#### <a name="field-items-uom">UoM</a>
+
+Ukuran per unit (satuan).
+
+#### <a name="field-items-untaxed">Untaxed</a>
+
+Perkalian dari Price Unit x Qty
+
+#### <a name="field-items-tax">Tax</a>
+
+Pajak yang dikenakan terhadap Untaxed. Dapat lebih dari 1.
+
+#### <a name="field-items-total">Total</a>
+
+Penambahan dari Untaxed + Tax.
+
+#### <a name="field-payment-terms">Tabel PAYMENT TERMS</a>
+
+Termin pembayaran *service quotaton* beserta item-item di tiap terminnya.
 
 #### <a name="field-term">Term</a>
 
@@ -85,11 +121,11 @@ Urutan termin pembayaran.
 
 #### <a name="field-product">Product</a>
 
-Nama produk.
+Nama item.
 
 #### <a name="field-description">Description</a>
 
-Deskripsi produk.
+Deskripsi item.
 
 #### <a name="field-price-unit">Price Unit</a>
 
@@ -105,7 +141,7 @@ Ukuran per unit (satuan).
 
 #### <a name="field-taxes">Taxes</a>
 
-Pajak yang dikenakan untuk produk.
+Pajak yang dikenakan untuk produk. Dapat dikenakan lebih dari 1.
 
 #### <a name="field-untaxed">Untaxed</a>
 
