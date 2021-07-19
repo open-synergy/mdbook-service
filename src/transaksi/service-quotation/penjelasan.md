@@ -65,11 +65,6 @@ Nomor kontrak. Informasi akan terisi otomatis ketika penawaran dimenangkan.
 #### <a name="tab-fix-items">TAB FIX ITEMS</a>
 
 ![](../../img/service-quotation/tab-fix-items-1.png)
-![](../../img/service-quotation/tab-fix-items-2.png)
-
-*Pop Up Payment Term* saat *add an item* diklik.
-
-![](../../img/service-quotation/pop-up-payment-term.png)
 
 #### <a name="field-items">Tabel ITEMS</a>
 
@@ -106,6 +101,12 @@ Pajak yang dikenakan terhadap Untaxed. Dapat lebih dari 1.
 #### <a name="field-items-total">Total</a>
 
 Penambahan dari Untaxed + Tax.
+
+![](../../img/service-quotation/tab-fix-items-2.png)
+
+*Pop Up Payment Term* saat *add an item* diklik.
+
+![](../../img/service-quotation/pop-up-payment-term.png)
 
 #### <a name="field-payment-terms">Tabel PAYMENT TERMS</a>
 
